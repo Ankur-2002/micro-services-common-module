@@ -1,6 +1,6 @@
 {
   "name": "@synez-ankur/common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "files": [
@@ -10,7 +10,7 @@
     "clean": "del ./build/*",
     "build": "npm run clean && tsc",
     "pub": "git add . && git commit -am \"Updates\" && npm version patch && npm publish "
-  }, 
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
