@@ -7,9 +7,10 @@
     "/build/**/*"
   ],
   "scripts": {
-    "clean": "del build/*",
-    "build": "npm run clean && tsc"
-  },
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc",
+    "pub": "git add . && git commit -am \"Updates\" && npm version patch && npm publish "
+  }, 
   "keywords": [],
   "author": "",
   "license": "ISC",
