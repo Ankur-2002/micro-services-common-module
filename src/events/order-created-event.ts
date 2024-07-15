@@ -3,7 +3,7 @@ import { OrderStatus } from './types/order-status';
 
 export interface orderCreatedEvent {
     subject: Subjects.OrderCreated;
-    body: {
+    data: {
         id: string;
         status: OrderStatus;
         userId: string;
