@@ -7,8 +7,6 @@ export class BadRequestError extends CustomError {
     }
     serializeErrors(): { message: string; field?: string | undefined }[] {
         return [
-
-
             {
                 message: this.message,
             },
